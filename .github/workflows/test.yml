@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Stale discussions action
-        uses: aws-github-ops/handle-stale-discussions@v1.0.0
+        uses: aws-github-ops/handle-stale-discussions@v1
         env:
           GITHUB_TOKEN:  ${{secrets.GITHUB_TOKEN}}
